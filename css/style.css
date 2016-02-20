@@ -1,0 +1,36 @@
+body {
+  background: #618C29;
+  font-family: "Calibri", sans-serif;
+}
+.jumbotron {
+  background: #27570C;
+}
+#logo {
+  display: inline;
+  width: 150px;
+  border-radius: 5px;
+}
+#heading {
+  display:inline;
+  padding-left: 30px;
+  color: #ffffff;
+}
+#privacy {
+  font-family: "Lato", sans-serif;
+}
+#privacy > p{
+  font-size: 100%;
+}
+.tdata {
+  padding: 3px 5px;
+}
+
+h2 {
+  padding: 0 15px;
+  color: white;
+}
+#area {
+  background: #618C29;
+  color: #fff;
+  font-family: "Consolas";
+}
