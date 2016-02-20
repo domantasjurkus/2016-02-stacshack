@@ -1,7 +1,3 @@
-$(function() {
-
-	$("#button").on("click", function() {
-		console.log("Compiling...");
-	});
-
-});
+words = {
+	"plow": "console.log"
+}
