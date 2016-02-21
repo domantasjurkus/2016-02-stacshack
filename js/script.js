@@ -8,7 +8,13 @@ $(function() {
 		console.log(raw);
 		console.log(convert(raw));
 		
-		eval(convert(raw));
+		try {
+			eval(convert(raw));
+		} catch (e) {
+		    // alert(e.message);
+		    document.getElementById("out").innerHTML += "<h5 id='error'>Error: Something fishy happened - and this language does not include fishing.<h5>";
+		}
+
 	});
 
 });

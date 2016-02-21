@@ -101,7 +101,7 @@ ul.tabs a.current, ul.tabs a.current:hover, ul.tabs li.current a {
     color: #eee !important;
     position: relative;
     background-color: #719C39;
-    width: 400px;
+    min-width: 400px;
     height: 400px;
 }
 #out {
@@ -117,4 +117,7 @@ ul.tabs a.current, ul.tabs a.current:hover, ul.tabs li.current a {
 }
 .ace_content {
   color:#eee;
+}
+#error {
+  color: #990000;
 }
