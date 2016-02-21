@@ -13,6 +13,22 @@ $(function() {
 
 });
 
+/*
+examples
+Hello plant:
+grow("Hello plant")
+
+Loops:
+replow
+plant orchard is []
+plow(plant each is 0; each less 10; each increase) {
+    orchard.pot(each)
+}
+dig(orchard.quantity more 0){
+    plant weed is "orchard " grafting orchard.uproot()
+    grow(weed)
+}
+*/
 function convert(code) {
 	var lines = code.split("\n");
 	for (var i = 0; i < lines.length; i++){
