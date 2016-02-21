@@ -3,7 +3,8 @@ $(function() {
 	$("#button").on("click", function() {
 		console.log("Compiling...");
 
-		var raw = $("textarea#area").val();
+		var raw = editor.getValue();
+
 		console.log(raw);
 	});
 
