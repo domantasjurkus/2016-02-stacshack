@@ -5,6 +5,7 @@ $(function() {
 
 		var raw = $("textarea#area").val();
 		console.log(raw);
+		eval(convert(raw));
 	});
 
 });
@@ -27,7 +28,8 @@ function convert(code) {
 	}
 	
 	var result = codeWords.join(" ") + ";" 
-	//if (print != "")
+	if (print != "")
+		result += "document.getElementById(\"out\") += " + print + ";";
 		
 	return result;
 }
