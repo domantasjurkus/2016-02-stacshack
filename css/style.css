@@ -35,14 +35,14 @@ h2 {
 body {
   background: #618C29;
   margin: 0;
-  padding:50px 80px;
+  /*padding:50px 80px;*/
   font-size: 14px;
   font-family: "Helvetica Neue", Helvetica;
 }
 
 .panes div {
     display:none;
-    padding:15px 10px;
+    /*padding:15px 10px;*/
     border-top :1px solid #999;
     height:500px;
     font-size:14px;
@@ -107,10 +107,13 @@ ul.tabs a.current, ul.tabs a.current:hover, ul.tabs li.current a {
 #out {
     border: 1px solid #0b924e;
     color: #eee !important;
-    position: relative;
+    /*position: relative;*/
     background-color: #719C39;
-    width: 400px;
-    height: 400px;
+    /*width: 400px;
+    height: 400px;*/
+    min-height: 400px;
+    padding: 10px;
+    border-radius: 5px;
 }
 .ace_content {
   color:#eee;

@@ -33,8 +33,8 @@ function convert(code) {
 	var lines = code.split("\n");
 	for (var i = 0; i < lines.length; i++){
 	
-		if (lines[i].search("grow") >= 0){
-			var startIndex = lines[i].search("grow") + "grow".length;
+		if (lines[i].search("unveil") >= 0){
+			var startIndex = lines[i].search("unveil") + "unveil".length;
 			startIndex += lines[i].substring(startIndex).indexOf('(') + 1;
 			var endIndex = startIndex + lines[i].substring(startIndex).indexOf(')');
 			
@@ -50,7 +50,7 @@ function convert(code) {
 					lines[i] = lines[i].replace(k, words[k]);
 				}
 			}
-			lines[i] += ";";
+			lines[i] += "";
 		}
 		lines[i] = lines[i].replace("{;", "{");
 		lines[i] = lines[i].replace("};", "}");

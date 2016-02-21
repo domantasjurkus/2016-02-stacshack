@@ -1,7 +1,9 @@
 words = {
 	"plow"		: "console.log",
+	"moo"		: "var",
 	"plant" 	: "var",
 	"increase"	: "++",
+	"grow"		: "++",
 	"decrease"	: "--",
 	"is"		: "=",
 	"breeding"	: "*",
