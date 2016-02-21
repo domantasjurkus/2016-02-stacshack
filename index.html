@@ -4,6 +4,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
 
     <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="http://d1n0x3qji82z53.cloudfront.net/src-min-noconflict/ace.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -23,7 +24,7 @@
 
                 <div class="col-xs-6">
                     <h2>Enter script here</h2>
-                    <textarea class="form-control" rows="16" id="area"></textarea>
+                    <div id="pane2"></div>
                     <br>
                     <button id="button" class="btn btn-success">Compile</button>
                 </div>
@@ -37,7 +38,13 @@
 
         </div>
     </div>
+    <script>
+        var editor = ace.edit("pane2");
+        editor.getSession().setUseWorker(false);
+        editor.setTheme("ace/theme/textmate");
+        editor.getSession().setMode("ace/mode/javascript");
 
+    </script>
     <script src="js/dictionary.js"></script>
     <script src="js/script.js"></script>
 

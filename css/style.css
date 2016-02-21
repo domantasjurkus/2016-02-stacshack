@@ -1,7 +1,4 @@
-body {
-  background: #618C29;
-  font-family: "Calibri", sans-serif;
-}
+
 .jumbotron {
   background: #27570C;
 }
@@ -27,9 +24,94 @@ body {
 
 h2 {
   color: white;
+  padding-bottom: 20px;
 }
 #area {
   background: #618C29;
   color: #fff;
   font-family: "Consolas";
+}
+
+body {
+  background: #618C29;
+  margin: 0;
+  padding:50px 80px;
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica;
+}
+
+.panes div {
+    display:none;
+    padding:15px 10px;
+    border-top :1px solid #999;
+    height:500px;
+    font-size:14px;
+    background-color:#fff;
+}
+
+ ul.tabs {
+    list-style:none;
+    margin:0 !important;
+    padding:0;
+    height:30px;
+}
+
+ul.tabs li {
+    float:left;
+    text-indent:0;
+    padding:0;
+    margin:0 !important;
+}
+
+ul.tabs a {
+    font-size:11px;
+    display:block;
+    height: 30px;
+    line-height:30px;
+    width: 134px;
+    text-align:center;
+    text-decoration:none;
+    color:#333;
+    padding:0px;
+    margin:0px;
+    position:relative;
+    top:1px;
+}
+
+ ul.tabs a:active {
+    outline:none;
+}
+
+ul.tabs a:hover {
+    color:red;
+}
+
+ul.tabs a.current, ul.tabs a.current:hover, ul.tabs li.current a {
+    font-size: 14px;
+    cursor:default !important;
+    color:#000 !important;
+}
+
+.panes .pane {
+    display:none;
+}
+
+#pane2 { 
+    border: 1px solid #0b924e;
+    color: #eee !important;
+    position: relative;
+    background-color: #719C39;
+    width: 400px;
+    height: 400px;
+}
+#out {
+    border: 1px solid #0b924e;
+    color: #eee !important;
+    position: relative;
+    background-color: #719C39;
+    width: 400px;
+    height: 400px;
+}
+.ace_content {
+  color:#eee;
 }
