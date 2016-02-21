@@ -1,6 +1,7 @@
 words = {
 	"plow"		: "console.log",
 	"plant" 	: "var",
+	"increase"	: "++",
 	"is"		: "=",
 	"breeding"	: "*",
 	"growing"	: "+",
@@ -9,6 +10,7 @@ words = {
 	"tool"		: "function",
 	"granted"	: "if",
 	"fresh"		: "else",
+	"quantity"	: "length",
 	"work"		: "do",
 	"dig"		: "while",
 	"plow"		: "for",
@@ -21,5 +23,8 @@ words = {
 	"root"		: "case",
 	"composting": "==",
 	"soiling"	: "&&",
-	"contaminate":"||"
+	"contaminate":"||",
+	"and"		: ";",
+	"less"		: "<",
+	"more"		: ">"
 }
