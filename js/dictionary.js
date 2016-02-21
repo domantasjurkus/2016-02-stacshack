@@ -1,3 +1,25 @@
 words = {
-	"plow": "console.log"
+	"plow"		: "console.log",
+	"plant" 	: "var",
+	"is"		: "=",
+	"breeding"	: "*",
+	"growing"	: "+",
+	"weeding"	: "-",
+	"infecting"	: "\/",
+	"tool"		: "function",
+	"granted"	: "if",
+	"fresh"		: "else",
+	"work"		: "do",
+	"dig"		: "while",
+	"plow"		: "for",
+	"harvest"	: "return",
+	"sunset"	: "break",
+	"nourish"	: "continue",
+	"diary"		: "console",
+	"agenda"	: "log",
+	"fertilise"	: "switch",
+	"root"		: "case",
+	"composting": "==",
+	"soiling"	: "&&",
+	"contaminate":"||"
 }
