@@ -12,7 +12,7 @@ $(function() {
 			eval(convert(raw));
 		} catch (e) {
 		    // alert(e.message);
-		    document.getElementById("out").innerHTML += "<h5 id='error'>Error: Something fishy happened - and this language does not include fishing.<h5>";
+		    document.getElementById("out").innerHTML = "<h5 id='error'>Error: Something fishy happened - and this language does not include fishing.<h5>";
 		}
 
 	});
